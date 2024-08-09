@@ -1,0 +1,22 @@
+Comencemos con el backend, donde manejaremos la base de datos y las rutas necesarias.
+
+Paso 1: Configuración del entorno
+Inicializa el proyecto con Node.js:
+
+Crea una carpeta para el proyecto y navega dentro de ella.
+Ejecuta npm init -y para inicializar el proyecto.
+Instala las dependencias necesarias:
+bash
+Copiar código
+npm install express pg sequelize multer
+Express: Framework para manejar rutas.
+pg y sequelize: Para interactuar con PostgreSQL.
+Multer: Para manejar la carga de archivos (como plantillas Excel o imágenes de productos).
+
+http://localhost:3000/auth/login
+{
+  "username": "admin",
+  "password": "1234"
+}
+
+heroku:j5rNBmqAn$e#.6B
