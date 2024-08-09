@@ -13,10 +13,3 @@ Express: Framework para manejar rutas.
 pg y sequelize: Para interactuar con PostgreSQL.
 Multer: Para manejar la carga de archivos (como plantillas Excel o imágenes de productos).
 
-http://localhost:3000/auth/login
-{
-  "username": "admin",
-  "password": "1234"
-}
-
-heroku:j5rNBmqAn$e#.6B
