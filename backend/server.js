@@ -15,7 +15,7 @@ app.use('/auth', authRoutes);
 // Rutas protegidas con autenticación
 app.use('/products', authenticateToken, productRoutes);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000; // Cambia el puerto a 10000 si es el puerto en Render
 sequelize.sync().then(() => {
   app.listen(PORT, () => {
     console.log(`Servidor corriendo en http://localhost:${PORT}`);
